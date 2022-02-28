@@ -3,8 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="headerAndFooter">
+    <link rel="stylesheet" th:href="@{/headerAndFooter.css}">
 </head>
+<header class="header">
+    <nav class="navi">
+        <ul class="ul-header">
+            <li class=h-li><a class="header-link" href="/" target="_self">Hjem</a></li>
+            <li class=h-li><a class="header-link" href="/artikler" target="_self">Artikler</a></li>
+            <li class=h-li><a class="header-link" href="/om os" target="_self">Info</a></li>
+            <li class=h-li><a class="header-link" href="/kontakt os" target="_self">Kontakt</a></li>
+
+        </ul>
+    </nav>
+    <form class="h-form">
+        <input class="h-searching" type="text" placeholder="Søg...">
+
+    </form>
+</header>
 <body>
 <h1>Test1</h1>
 </body>

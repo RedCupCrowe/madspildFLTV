@@ -1,0 +1,45 @@
+.header{
+    height: 100px;
+    background-color: green;
+    opacity: 80%;
+    display: flex;
+    position: sticky;
+    margin-top: 0;
+
+}
+.navi{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.ul-header{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+}
+.h-li{
+
+}
+.header-link{
+    display: flex;
+
+
+    padding: 1em;
+    background-color: pink;
+    text-align: center;
+
+}
+.h-form{
+    position: fixed;
+    right: 2em;
+
+
+}
+.h-searching{
+    width: 200px;
+    background-color: white;
+    text-align: center;
+
+}
