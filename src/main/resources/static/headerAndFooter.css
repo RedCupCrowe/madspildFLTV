@@ -1,11 +1,10 @@
 .header{
-    height: 100px;
+    height: 5em;
     background-color: green;
     opacity: 80%;
     display: flex;
     position: sticky;
     margin-top: 0;
-
 }
 .navi{
     display: flex;
@@ -17,15 +16,12 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
-
 }
 .h-li{
 
 }
 .header-link{
     display: flex;
-
-
     padding: 1em;
     background-color: pink;
     text-align: center;
@@ -34,12 +30,11 @@
 .h-form{
     position: fixed;
     right: 2em;
-
+    margin-top: 2em;
 
 }
 .h-searching{
     width: 200px;
     background-color: white;
     text-align: center;
-
 }
