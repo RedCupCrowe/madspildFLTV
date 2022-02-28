@@ -1,6 +1,6 @@
 .header{
     height: 5em;
-    background-color: green;
+    background-color: #040845;
     opacity: 80%;
     display: flex;
     position: sticky;
@@ -23,8 +23,9 @@
 .header-link{
     display: flex;
     padding: 1em;
-    background-color: pink;
+    background-color: #040845;
     text-align: center;
+    color: floralwhite;
 
 }
 .h-form{
