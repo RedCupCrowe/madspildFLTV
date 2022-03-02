@@ -11,5 +11,11 @@ public class HomeController {
         return "footerAndHeader";
     }
 
+    /*
+    @GetMapping("omos")
+    public String omOs(){
+        return "omOs";
+    }
+    */
 
 }
